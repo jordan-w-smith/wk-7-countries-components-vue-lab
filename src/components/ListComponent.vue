@@ -1,8 +1,8 @@
 <template lang="html">
   <!-- <p>country</p> -->
-  <div class="">
-    <li v-on:click="handleClick">{{ country.name }}</li>
-  </div>
+  <!-- <div class=""> -->
+    <option v-bind:value="country">{{ country.name }}</option>
+  <!-- </div> -->
 </template>
 
 <script>
